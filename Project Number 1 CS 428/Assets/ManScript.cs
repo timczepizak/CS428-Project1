@@ -29,6 +29,7 @@ public class ManScript : MonoBehaviour, IVirtualButtonEventHandler
     {
         if (!flag)
         {
+            Debug.Log("Button Pressed");
             flag = true;
             Instantiate(Man,t);
             manAnim.Play("Man");
