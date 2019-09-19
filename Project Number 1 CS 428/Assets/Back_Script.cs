@@ -34,7 +34,8 @@ public class Back_Script : MonoBehaviour, IVirtualButtonEventHandler
     {
         Button = GameObject.Find("Button");
         Button.GetComponent<VirtualButtonBehaviour>().RegisterEventHandler(this);
-        
+        Instantiate(Title, review1Placement);
+
     }
 
     public void OnButtonPressed(VirtualButtonBehaviour vb)
