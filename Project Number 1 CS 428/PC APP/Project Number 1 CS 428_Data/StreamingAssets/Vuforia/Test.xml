@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="backcover" size="0.200000 0.312222" />
+    <ImageTarget name="frontcover" size="0.200000 0.310642" />
+    <ImageTarget name="SmartSelect_20190906-105228_Gallery" size="0.200000 0.252488" />
+    <ImageTarget name="SmartSelect_20190905-145345_Gallery" size="0.200000 0.366552" />
+  </Tracking>
+</QCARConfig>
